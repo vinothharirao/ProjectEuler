@@ -18,7 +18,7 @@ sumOfFifteens = Math.floor((n/2)*(15*n-15));
 //A ∪ B = A + B - (A ∩ B)
 console.log((sumOfThrees+sumOfFives-sumOfFifteens));
 
-//method 2:straightforward approach.iterating from 1 to 1000.
+//method 2:straightforward approach.iterating from 1 to 999.
 var sum = 0;
 var number = 1;
 while(number<1000) {
