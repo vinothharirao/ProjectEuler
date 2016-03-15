@@ -4,7 +4,7 @@ var grid = '08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08 49 49 99
 
 var product = 1;
 var rows = [];
-//getting individual rows and creating 2 by 2 matrix.
+//getting individual rows and creating 20 by 20 matrix.
 for(var i=0;i<20;i++) {
 	rows[i] = grid.slice(20*i,20+20*i);
 }
