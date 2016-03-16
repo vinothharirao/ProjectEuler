@@ -4,6 +4,7 @@ var noOfLetters = 0;
 for(var i=1;i<=999;i++) {
 	noOfLetters += numberToText(i).length;
 }
+//for onethousand add 11.
 console.log(noOfLetters+11);
 
 function ones(n) {
