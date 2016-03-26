@@ -1,3 +1,4 @@
+//Find the sum of all 0 to 9 pandigital numbers with this property.
 var permArr = [],
   usedChars = [];
 var sum = 0;

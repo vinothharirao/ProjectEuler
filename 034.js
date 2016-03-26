@@ -1,4 +1,4 @@
-console.time("v");
+//Find the sum of all numbers which are equal to the sum of the factorial of their digits.
 var sumOfCurious = 0;
 var current = 3;
 
@@ -27,5 +27,3 @@ function factorial(num) {
         fact = fact * i;
     return fact;
 }
-
-console.timeEnd("v");

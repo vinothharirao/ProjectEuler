@@ -1,3 +1,4 @@
+//Find the sum of the only eleven primes that are both truncatable from left to right and right to left.
 var count = 0,number = 10,sum = 0;
 while(true) {
 	if(isPrime(number)) { 

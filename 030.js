@@ -1,3 +1,4 @@
+//Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 var sum = 0;
 var number = 2;
 
